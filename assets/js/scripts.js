@@ -33,27 +33,27 @@ $(document).ready(function() {
   $('#check3').hide();
 
   $('#acquisition').mouseover(function() {
-    $('#check1').show();
+    $('#check1').fadeIn();
   });
 
   $('#acquisition').mouseout(function() {
-    $('#check1').hide();
+    $('#check1').fadeOut();
   });
 
   $('#activation').mouseover(function() {
-    $('#check2').show();
+    $('#check2').fadeIn();
   });
 
   $('#activation').mouseout(function() {
-    $('#check2').hide();
+    $('#check2').fadeOut();
   });
 
   $('#retention').mouseover(function() {
-    $('#check3').show();
+    $('#check3').fadeIn();
   });
 
   $('#retention').mouseout(function() {
-    $('#check3').hide();
+    $('#check3').fadeOut();
   });
 
 });
