@@ -27,4 +27,33 @@ $(document).ready(function() {
       }
     }
   });
+
+  $('#check1').hide();
+  $('#check2').hide();
+  $('#check3').hide();
+
+  $('#acquisition').mouseover(function() {
+    $('#check1').show();
+  });
+
+  $('#acquisition').mouseout(function() {
+    $('#check1').hide();
+  });
+
+  $('#activation').mouseover(function() {
+    $('#check2').show();
+  });
+
+  $('#activation').mouseout(function() {
+    $('#check2').hide();
+  });
+
+  $('#retention').mouseover(function() {
+    $('#check3').show();
+  });
+
+  $('#retention').mouseout(function() {
+    $('#check3').hide();
+  });
+
 });

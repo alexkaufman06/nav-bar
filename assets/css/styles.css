@@ -207,6 +207,8 @@ header > nav > ul > li > nav > ul > li:hover > a {
   }
 }
 
+
+
 .left {
   float: left;
 }
@@ -215,6 +217,17 @@ header > nav > ul > li > nav > ul > li:hover > a {
   text-align: center;
   color: #EEE;
   font-size: 12px;
+}
+
+.sub-menu-options {
+  margin-left: 10px;
+}
+
+.check {
+  width: 10px;
+  position: absolute;
+  top: 14px;
+  left: 5px;
 }
 
 #logoImage {
